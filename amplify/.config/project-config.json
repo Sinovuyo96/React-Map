@@ -1,0 +1,17 @@
+{
+    "providers": [
+        "awscloudformation"
+    ],
+    "projectName": "amplifyDemo",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "/react-amplified/src",
+            "DistributionDir": "/react-amplified/src",
+            "BuildCommand": "npm build",
+            "StartCommand": "npm start"
+        }
+    }
+}
